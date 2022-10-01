@@ -1,5 +1,41 @@
 {
+  "name": "interactive-rating-component-main",
+  "version": "1.0.0",
+  "description": "Front end mentor - Interactive Rating",
+  "main": "index.js",
   "dependencies": {
-    "sass": "^1.55.0"
-  }
+    "binary-extensions": "^2.2.0",
+    "fill-range": "^7.0.1",
+    "braces": "^3.0.2",
+    "fsevents": "^2.3.2",
+    "chokidar": "^3.5.3",
+    "glob-parent": "^5.1.2",
+    "anymatch": "^3.1.2",
+    "is-binary-path": "^2.1.0",
+    "is-extglob": "^2.1.1",
+    "is-glob": "^4.0.3",
+    "immutable": "^4.1.0",
+    "normalize-path": "^3.0.0",
+    "picomatch": "^2.3.1",
+    "readdirp": "^3.6.0",
+    "is-number": "^7.0.0",
+    "sass": "^1.55.0",
+    "to-regex-range": "^5.0.1",
+    "source-map-js": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch ./sass/main.scss:./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deZ1711/interactive-rating.git"
+  },
+  "author": "deZ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deZ1711/interactive-rating/issues"
+  },
+  "homepage": "https://github.com/deZ1711/interactive-rating#readme"
 }
