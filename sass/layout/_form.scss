@@ -1,0 +1,44 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  &__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: hsl(212, 27%, 25%);; 
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    border: none;
+    color: $mediumgrey;
+  }
+  &__rtgbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(212, 27%, 25%);; 
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    border: none;
+    color: $mediumgrey;
+    &.active {
+      background-color: $lightgrey;
+      color: $white;
+    }
+  }
+  &__submitbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__answerlist {
+        display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+  }
+}

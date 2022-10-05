@@ -1,0 +1,106 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 15px;
+  background: hsl(216deg, 12%, 8%);
+}
+
+body {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  font-size: 15px;
+}
+
+li {
+  list-style: none;
+}
+
+.form__submitbtn {
+  background-color: hsl(25deg, 97%, 53%);
+  width: 100%;
+  font-weight: 400;
+  height: 3rem;
+  border-radius: 50px;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  color: hsl(0deg, 0%, 100%);
+  border: none;
+  cursor: pointer;
+}
+
+.parent-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: hsla(213deg, 19%, 18%, 0.6);
+  margin: 0 50%;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.form__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: hsl(212deg, 27%, 25%);
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  border: none;
+  color: hsl(216deg, 12%, 54%);
+}
+.form__rtgbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: hsl(212deg, 27%, 25%);
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  border: none;
+  color: hsl(216deg, 12%, 54%);
+}
+.form__rtgbtn.active {
+  background-color: hsl(217deg, 12%, 63%);
+  color: hsl(0deg, 0%, 100%);
+}
+.form__submitbtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form__answerlist {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+}
+
+.hide {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */
