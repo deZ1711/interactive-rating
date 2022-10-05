@@ -23,22 +23,50 @@
     height: 3em;
     border-radius: 50%;
     border: none;
-    color: $mediumgrey;
+    cursor: pointer;
     &.active {
       background-color: $lightgrey;
+    }
+    &:hover {
       color: $white;
+      background-color: $orange;
     }
   }
   &__submitbtn {
     display: flex;
     align-items: center;
     justify-content: center;
+    &:hover {
+      background-color: $white;
+      color: $orange;
+    }
   }
   &__answerlist {
-        display: flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     gap: 15px;
+  }
+  &__submitted {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  &__appreciate {
+    text-align: center;
+    text-justify: auto;
+  }
+  &__thx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__choice {
+    background-color: $verydarkblue;
+    border-radius: 20px;
+    padding: 5px 20px;
   }
 }

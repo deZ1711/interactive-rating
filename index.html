@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="./css/style.css" />
 
     <title>Frontend Mentor | Interactive rating component</title>
-    <script src="./js/app.js" deferS></script>
+    <script src="./js/app.js" defer></script>
   </head>
   <body>
     <div class="parent-container">
@@ -36,19 +36,19 @@
 
           <ul class="form__answerlist">
             <li>
-              <div class="form__rtgbtn" name="rating" value="1">1</div>
+              <div class="form__rtgbtn">1</div>
             </li>
             <li>
-              <div class="form__rtgbtn" name="rating" value="2">2</div>
+              <div class="form__rtgbtn">2</div>
             </li>
             <li>
-              <div class="form__rtgbtn" name="rating" value="3">3</div>
+              <div class="form__rtgbtn">3</div>
             </li>
             <li>
-              <div class="form__rtgbtn active" name="rating" value="4">4</div>
+              <div class="form__rtgbtn active">4</div>
             </li>
             <li>
-              <div class="form__rtgbtn" name="rating" value="5">5</div>
+              <div class="form__rtgbtn">5</div>
             </li>
           </ul>
 
@@ -58,13 +58,14 @@
 
         <!-- Thank you state start -->
         <div class="form__submitted hide">
+          <div class="form__thx"><img src="images/illustration-thank-you.svg" alt="form is submitted"></div>
           <div class="form__choice">
             You selected <span class="rate"></span> out of 5
           </div>
 
           <h1 class="form__title">Thank you!</h1> 
 
-          <p class="form__description">
+          <p class="form__appreciate">
             We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!
           </p>
         </div>

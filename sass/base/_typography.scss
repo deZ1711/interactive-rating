@@ -1,8 +1,36 @@
 body {
   font-family: 'Overpass', sans-serif;
   font-size: 15px;
+  font-weight: 400;
 }
 
 li {
 list-style: none;
+}
+
+.form {
+  &__title {
+    color: $white;
+    font-weight: 700;
+  }
+  &__description {
+    color: $mediumgrey;
+  }
+  &__rtgbtn {
+    color: $mediumgrey;
+    &.active {
+      color: $white;
+    }
+  }
+  &__appreciate {
+    color: $lightgrey;
+  }
+  &__choice {
+    color: $orange;
+  }
+  &__submitbtn {
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    color: $white;
+  }
 }
